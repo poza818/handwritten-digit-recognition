@@ -84,13 +84,11 @@ It features a fully interactive dark-theme web GUI where you can:
 <table>
   <tr>
     <td align="center" width="50%">
-      <b>📂 Upload Mode 
-        ✏️ Draw Mode</b><br/><br/>
+      <b>📂 Upload Mode & ✏️ Draw Mode</b><br/><br/>
       <img src="screenshots/gui_main.png" width="100%" />
     </td>
     <td align="center" width="50%">
-      <b>📊 Results 
-         📋 Prediction History</b><br/><br/>
+      <b>📊 Results & 📋 Prediction History</b><br/><br/>
       <img src="screenshots/gui_results.png" width="100%" />
     </td>
   </tr>
@@ -281,15 +279,14 @@ The `images/` folder contains **16 real handwritten digit samples** to test the 
 ✅ Model saved  → digit_recognition_model.h5
 📢 Save as Dataset: mnist-digit-model  (do once!)
 
-⚡ Cells 12–18 : GUI launching...
+⚡ Cells 12 : GUI launching...
 🚀 Public URL  : https://xxxxx.gradio.live  ← click this!
 ```
 
 **🔹 Every Time After — Skip Training, Just Launch GUI**
 
 1. Open the same notebook
-2. Right panel → **Add Data** → search `mnist-digit-model` → **Add** ✅
-3. Run only **Cells 12–18** (skip training cells!)
+3. Run only **Cells 12** (skip training cells!)
 4. Click the public URL → **GUI opens in 3 seconds!** 🎉
 
 ```
