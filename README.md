@@ -140,15 +140,19 @@ Output: Predicted Digit (0–9) + Confidence %
 ---
 
 ## 🗂️ Project Structure
-
-```
 📁 Handwritten-Digit-Recognition/
 │
-├── 📄 kaggle_training.py    ← STEP 1: Train & save the model (run once!)
-├── 📄 kaggle_gui.py         ← STEP 2: Launch interactive GUI (run anytime!)
+├── 📓 kaggle_training.ipynb ← STEP 1: Train & save the model (run once!)
+├── 📓 kaggle_gui.ipynb      ← STEP 2: Launch interactive GUI (run anytime!)
 ├── 📄 requirements.txt      ← All Python dependencies
 ├── 📄 README.md             ← You are here
 ├── 📄 LICENSE               ← MIT License
+│
+├── 🧠 digit_model.keras     ← Saved trained model (generated after training)
+│                               ⚠️ Not in repo — saved to Kaggle Dataset
+│                               📍 Location: /kaggle/working/digit_model.keras
+│                               💾 Save as Dataset: "mnist-digit-model"
+│                               📥 Loaded from: /kaggle/input/mnist-digit-model/
 │
 ├── 📁 images/               ← Sample test images for the GUI
 │   ├── 🖼️ 0.jpeg
@@ -162,9 +166,8 @@ Output: Predicted Digit (0–9) + Confidence %
 │   ├── 🖼️ 8.jpeg
 │   └── 🖼️ 9.jpeg  9(1).jpeg
 │
-└── 📁 screenshots/          ← Add your GUI screenshots here!
-    └── (add after running the GUI)
-```
+└── 📁 screenshots/          ← GUI screenshots
+    └── (GUI screenshot)
 
 ---
 
