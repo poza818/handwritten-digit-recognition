@@ -1,0 +1,58 @@
+# ============================================================
+#   Handwritten Digit Recognition — .gitignore
+# ============================================================
+
+# ── Model Files (too large for GitHub, saved on Kaggle) ─────
+*.h5
+*.keras
+*.pb
+*.ckpt
+saved_model/
+checkpoints/
+
+# ── Jupyter Checkpoints (auto-generated, not needed) ────────
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# ── Python Cache ────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pyc
+*.pdb
+
+# ── Virtual Environments ────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+ENV/
+
+# ── Python Build & Packaging ────────────────────────────────
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# ── Data Files (MNIST auto-downloads, not needed in repo) ───
+*.npy
+*.npz
+
+# ── IDE & Editor ────────────────────────────────────────────
+.vscode/
+.idea/
+*.suo
+*.swp
+*.swo
+
+# ── OS Generated ────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ── Kaggle Credentials (NEVER commit this!) ─────────────────
+kaggle.json
