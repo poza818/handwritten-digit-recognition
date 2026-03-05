@@ -1,0 +1,21 @@
+# ============================================================
+#   Handwritten Digit Recognition — Requirements
+#
+#   Install all at once:
+#   pip install -r requirements.txt
+# ============================================================
+
+tensorflow>=2.10.0
+numpy>=1.21.0
+
+# Image Processing
+opencv-python>=4.5.0
+Pillow>=9.0.0
+
+# GUI
+gradio>=4.0.0
+
+# Visualization & Evaluation
+matplotlib>=3.5.0
+seaborn>=0.11.0
+scikit-learn>=1.0.0
